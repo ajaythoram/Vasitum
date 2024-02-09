@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import Navbar from "./Components/Navbar/Navbar.js";
+import Recruitment from "./Recruitment/Recruitment.js";
+import Employee from "./Components/Employee/Employee.js";
+import Dashboardc from "./Components/Dashboard/Dashboard.js";
+import Schedule from "./Components/Schedule/Schedule.js";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <BrowserRouter>
+    <Sidebar />
+    <Navbar />
+     <Routes>
+          <Route path="/"  element={<Dashboardc />} />
+          <Route path="/recruitment" element={<Recruitment />} />
+          <Route path="/employee" element={<Employee />} />
+          <Route path="/schedule" element={<Schedule />} />
+        
+     
+    </Routes>
+   </BrowserRouter>
   );
-}
+};
 
 export default App;

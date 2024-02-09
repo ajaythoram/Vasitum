@@ -1,0 +1,159 @@
+
+#dashboard{
+    margin-left: 250px;
+    padding: 0 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    
+}
+
+#dashboard-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#about-job{
+    display: flex;
+    gap: 10px;
+}
+
+/* small card */
+.small-card{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     border-radius: 10px;
+     width: 180px;
+     
+}
+
+.small-card p,h5{
+    margin: 0.3rem;
+    margin-left: 20px;
+}
+.small-card h5{
+    margin-top: 10px;
+}
+
+/* medium card*/
+#total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.medium-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #f1f1f1;
+    margin-top: 3rem;
+    border-radius: 10px;
+    flex: 1;
+}
+
+#announcement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  flex: 1;
+  border: 2px solid #ececec;
+  border-radius: 10px;
+}
+ .larg-card{
+   
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+ }
+ #anc-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+ }
+
+ .mini{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    align-items: center;
+    border: 2px solid #ececec;
+    width: 90%;
+    
+ }
+ .icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .larg-card p{
+    display: flex;
+    justify-content: center;
+    color: #ff5151;
+    font-size: 18px;
+ }
+
+ /* right side */
+
+
+ #dashboard-right{
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+
+ }
+ #activity {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #121843;
+    border-radius: 10px;
+    padding:  1.5rem;
+ }
+ #activity h3{
+   background-color: #1b204a;
+   margin: 0;
+   padding: 1rem;
+ 
+  
+ }
+ #schedule{
+    display: flex;
+    border: 2px solid #ececec;
+    flex-direction: column;
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding: 2rem;
+ }
+ #sch-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+ }
+
+ #sch-cards div{
+    
+    justify-content: flex-start;
+    background-color: #f1f1f1;
+    border: 2px solid #ececec;
+    width: 90%;
+    
+ }
+
+ @media (max-width:1200px) {
+
+   #dashboard{
+      display: flex;
+      flex-direction: column;
+   }
+ }
+
+

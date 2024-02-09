@@ -1,0 +1,44 @@
+.recruitment-container {
+    width: max-content;
+    margin: auto;
+    padding: 4rem;
+    background-color: #fafafa;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    
+
+  }
+  
+  .recruitment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+  
+  .recruitment-form label {
+    margin-bottom: 1rem;
+  }
+  
+  .recruitment-form input[type="text"],
+  .recruitment-form input[type="submit"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .recruitment-form button {
+    background-color: #007bff;
+    width: max-content;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .recruitment-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .recruitment-form div{
+    display: flex;
+    gap: 40px;
+  }
+  

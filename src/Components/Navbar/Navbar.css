@@ -1,0 +1,38 @@
+#nav-bar{
+    margin-left: 250px;
+    display: flex;
+    padding:  1.5rem;
+    font-weight: 600;
+    justify-content: space-between;
+    font-size: 24px;
+    
+}
+#nav-left{
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    border: 2px solid #f1f1f1;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 40%;
+    
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 30%;
+    color: #8d8d8d;
+ 
+}
+#nav-left input{
+    outline: none;
+    height: 50px;
+    width: 90%;
+   border: none;
+   
+}
+#nav-left input::placeholder {
+    font-size: 24px;
+}
